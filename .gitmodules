@@ -1,0 +1,9 @@
+[submodule "eureka-server"]
+path=eureka-server
+url=https://github.com/SarinXo/eureka-server.git
+[submodule "location-service"]
+path=location-service
+url=https://github.com/SarinXo/location-service.git
+[submodule "weather-service"]
+path=weather-service
+url=https://github.com/SarinXo/weather-service.git
