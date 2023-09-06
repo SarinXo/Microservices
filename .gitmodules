@@ -7,3 +7,6 @@ url=https://github.com/SarinXo/location-service.git
 [submodule "weather-service"]
 path=weather-service
 url=https://github.com/SarinXo/weather-service.git
+[submodule "person-service"]
+path=person-service
+url=https://github.com/SarinXo/person-service.git
