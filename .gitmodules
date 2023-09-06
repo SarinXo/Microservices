@@ -1,12 +1,12 @@
 [submodule "eureka-server"]
-path=eureka-server
-url=https://github.com/SarinXo/eureka-server.git
+    path=eureka-server
+    url=https://github.com/SarinXo/eureka-server.git
 [submodule "location-service"]
-path=location-service
-url=https://github.com/SarinXo/location-service.git
+    path=location-service
+    url=https://github.com/SarinXo/location-service.git
 [submodule "weather-service"]
-path=weather-service
-url=https://github.com/SarinXo/weather-service.git
+    path=weather-service
+    url=https://github.com/SarinXo/weather-service.git
 [submodule "person-service"]
-path=person-service
-url=https://github.com/SarinXo/person-service.git
+	path = person-service
+	url = https://github.com/sarinxo/person-service.git

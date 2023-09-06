@@ -28,6 +28,14 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/person-service" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/person-service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/weather-service" />
         <option name="modules">
           <set>
