@@ -10,3 +10,6 @@
 [submodule "person-service"]
 	path = person-service
 	url = https://github.com/sarinxo/person-service.git
+[submodule "api-gateway"]
+	path = api-gateway
+	url = https://github.com/sarinxo/api-gateway.git
