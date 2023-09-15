@@ -4,15 +4,50 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/api-gateway" name="api-gateway">
+                <projects>
+                  <project path="$PROJECT_DIR$/api-gateway" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/eureka-server" name="eureka-server">
+                <projects>
+                  <project path="$PROJECT_DIR$/eureka-server" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/location-service" name="location-service">
+                <projects>
+                  <project path="$PROJECT_DIR$/location-service" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/person-service" name="person-service">
+                <projects>
+                  <project path="$PROJECT_DIR$/person-service" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/weather-service" name="weather-service">
+                <projects>
+                  <project path="$PROJECT_DIR$/weather-service" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/api-gateway" />
+            <option value="$PROJECT_DIR$/eureka-server" />
+            <option value="$PROJECT_DIR$/location-service" />
+            <option value="$PROJECT_DIR$/person-service" />
+            <option value="$PROJECT_DIR$/weather-service" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/api-gateway" />
         <option name="modules">
           <set>

@@ -6,3 +6,9 @@
  */
 
 rootProject.name = 'microservices'
+
+includeBuild 'api-gateway'
+includeBuild 'eureka-server'
+includeBuild 'location-service'
+includeBuild 'person-service'
+includeBuild 'weather-service'
