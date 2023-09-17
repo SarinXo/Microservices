@@ -18,6 +18,10 @@
 
 [POST]http://localhost:8088/person-service/persons
 
+Получить блок Weather (Main) от person с {id} по его локации
+
+[GET]http://localhost:8088/person-service/persons/{id}/weather
+
 
 ----------------------------------------wether-service---------------------------------------
 
