@@ -22,6 +22,10 @@
 
 [GET]http://localhost:8088/person-service/persons/{id}/weather
 
+Получить id сервиса к которому был осуществлен запрос
+
+[GET]http://localhost:8088/person-service/service/id
+
 
 ----------------------------------------wether-service---------------------------------------
 
