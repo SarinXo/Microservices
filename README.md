@@ -51,3 +51,7 @@
 Получить погоду по ЗАРЕГИСТРИРОВАННОМУ названию города
 
 [GET]http://localhost:17957/location-service/weather?location={location}
+
+Получить блок main погоды по ЗАРЕГИСТРИРОВАННОМУ названию города
+
+[GET]http://localhost:17957/location-service/weather/main?location={location}
